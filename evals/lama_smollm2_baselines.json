@@ -1,0 +1,108 @@
+{
+  "dtype": "bfloat16",
+  "max_length": 256,
+  "num_probe_examples_scored": 2000,
+  "probe": "evals/lama_smollm2.json",
+  "results": {
+    "backpack_360m_v1": {
+      "metrics": {
+        "mean_answer_prob": 0.010920967428945005,
+        "mrr": 0.06994596311450005,
+        "num_examples": 2000,
+        "output_entropy_mean": 5.724208839416504,
+        "top1_accuracy": 0.028,
+        "top5_accuracy": 0.0965,
+        "top_relations": {
+          "P1376": {
+            "num_examples": 197,
+            "top1_accuracy": 0.04060913705583756
+          },
+          "P36": {
+            "num_examples": 163,
+            "top1_accuracy": 0.012269938650306749
+          },
+          "P37": {
+            "num_examples": 318,
+            "top1_accuracy": 0.012578616352201259
+          },
+          "P47": {
+            "num_examples": 455,
+            "top1_accuracy": 0.017582417582417582
+          },
+          "P530": {
+            "num_examples": 376,
+            "top1_accuracy": 0.023936170212765957
+          }
+        }
+      },
+      "model_path": "jcblaise/backpack-smollm2-360M"
+    },
+    "backpack_360m_v3": {
+      "metrics": {
+        "mean_answer_prob": 0.0016719407992204652,
+        "mrr": 0.015583196693100035,
+        "num_examples": 2000,
+        "output_entropy_mean": 6.110104618072509,
+        "top1_accuracy": 0.002,
+        "top5_accuracy": 0.0165,
+        "top_relations": {
+          "P1376": {
+            "num_examples": 197,
+            "top1_accuracy": 0.005076142131979695
+          },
+          "P36": {
+            "num_examples": 163,
+            "top1_accuracy": 0.0
+          },
+          "P37": {
+            "num_examples": 318,
+            "top1_accuracy": 0.0
+          },
+          "P47": {
+            "num_examples": 455,
+            "top1_accuracy": 0.0
+          },
+          "P530": {
+            "num_examples": 376,
+            "top1_accuracy": 0.0026595744680851063
+          }
+        }
+      },
+      "model_path": "jcblaise/backpack-smollm2-360M-v3"
+    },
+    "smollm2_360m_base": {
+      "metrics": {
+        "mean_answer_prob": 0.2018431745916605,
+        "mrr": 0.41614461195468905,
+        "num_examples": 2000,
+        "output_entropy_mean": 3.468430456161499,
+        "top1_accuracy": 0.3155,
+        "top5_accuracy": 0.525,
+        "top_relations": {
+          "P1376": {
+            "num_examples": 197,
+            "top1_accuracy": 0.5431472081218274
+          },
+          "P36": {
+            "num_examples": 163,
+            "top1_accuracy": 0.294478527607362
+          },
+          "P37": {
+            "num_examples": 318,
+            "top1_accuracy": 0.17295597484276728
+          },
+          "P47": {
+            "num_examples": 455,
+            "top1_accuracy": 0.31648351648351647
+          },
+          "P530": {
+            "num_examples": 376,
+            "top1_accuracy": 0.2872340425531915
+          }
+        }
+      },
+      "model_path": "HuggingFaceTB/SmolLM2-360M"
+    }
+  },
+  "tokenizer": "HuggingFaceTB/SmolLM2-360M"
+}
