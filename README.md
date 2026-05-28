@@ -1,6 +1,7 @@
 # ACROS: Sense Representations are Inducible Interfaces
 
 Hugging Face collection (models/checkpoints): https://huggingface.co/collections/jcblaise/acros
+
 Paper: https://arxiv.org/abs/2605.28669
 
 ## Install
